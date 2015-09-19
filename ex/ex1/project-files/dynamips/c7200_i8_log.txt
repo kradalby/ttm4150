@@ -1,0 +1,1 @@
+Sep 19 11:38:56.066 VM: renamed from 'R8' to 'telenor_ul'Sep 19 11:39:04.106 VM: renamed from 'telenor_ul' to 'telenor_u4'Sep 19 11:39:11.599 VM: renamed from 'telenor_u4' to 'telenor_ur'

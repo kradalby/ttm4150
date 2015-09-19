@@ -1,0 +1,1 @@
+Sep 19 11:40:30.493 VM: renamed from 'R9' to 'telenor_dl'

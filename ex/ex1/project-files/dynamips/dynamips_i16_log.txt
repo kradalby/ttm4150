@@ -1,0 +1,30 @@
+Sep 19 11:29:41.697 HYPERVISOR: Release 0.2.12-amd64/Darwin (tag 2014032722)
+Sep 19 11:29:41.697 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54001.
+Sep 19 11:29:41.708 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 19 11:29:41.708 HYPERVISOR: exec_cmd: hypervisor uuid 
+Sep 19 11:29:41.709 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips 
+Sep 19 11:29:41.709 GENERAL: working_dir=/Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips
+Sep 19 11:29:41.709 HYPERVISOR: exec_cmd: vm create R15 15 c7200 
+Sep 19 11:29:41.710 VM: VM R15 created.
+Sep 19 11:29:41.710 HYPERVISOR: exec_cmd: vm set_con_tcp_port R15 2015 
+Sep 19 11:29:41.711 HYPERVISOR: exec_cmd: c7200 get_mac_addr R15 
+Sep 19 11:29:41.711 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 19 11:29:41.711 HYPERVISOR: exec_cmd: vm slot_add_binding R15 0 0 C7200-IO-FE 
+Sep 19 11:29:41.712 HYPERVISOR: exec_cmd: vm set_ios R15 /Users/kradalby/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 19 11:29:41.712 HYPERVISOR: exec_cmd: vm set_nvram R15 512 
+Sep 19 11:29:41.713 HYPERVISOR: exec_cmd: vm set_disk0 R15 0 
+Sep 19 11:29:41.713 HYPERVISOR: exec_cmd: vm get_status R15 
+Sep 19 11:29:41.714 HYPERVISOR: exec_cmd: vm set_idle_pc R15 0x6062db80 
+Sep 19 11:29:41.714 HYPERVISOR: exec_cmd: vm set_ram R15 512 
+Sep 19 11:29:41.715 HYPERVISOR: exec_cmd: vm set_config R15 configs/i15_startup-config.cfg 
+Sep 19 11:29:41.715 HYPERVISOR: exec_cmd: vm set_ghost_status R15 2 
+Sep 19 11:29:41.716 HYPERVISOR: exec_cmd: vm set_ghost_file R15 c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Sep 19 11:29:44.571 HYPERVISOR: exec_cmd: vm extract_config R15 
+Sep 19 11:41:35.453 HYPERVISOR: exec_cmd: vm rename R15 customer_d 
+Sep 19 11:41:35.454 HYPERVISOR: exec_cmd: vm get_status customer_d 
+Sep 19 11:41:35.454 HYPERVISOR: exec_cmd: vm slot_add_binding customer_d 1 0 PA-GE 
+Sep 19 11:46:45.102 HYPERVISOR: exec_cmd: vm extract_config customer_d 
+Sep 19 11:46:45.311 HYPERVISOR: exec_cmd: vm extract_config customer_d 
+Sep 19 11:46:45.502 HYPERVISOR: exec_cmd: vm extract_config customer_d 
+Sep 19 11:46:45.671 HYPERVISOR: exec_cmd: vm extract_config customer_d 
+Sep 19 11:48:55.267 HYPERVISOR: exec_cmd: vm extract_config customer_d 

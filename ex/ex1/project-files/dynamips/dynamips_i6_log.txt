@@ -1,0 +1,36 @@
+Sep 19 11:28:53.430 HYPERVISOR: Release 0.2.12-amd64/Darwin (tag 2014032722)
+Sep 19 11:28:53.430 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53981.
+Sep 19 11:28:53.442 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 19 11:28:53.443 HYPERVISOR: exec_cmd: hypervisor uuid 
+Sep 19 11:28:53.443 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips 
+Sep 19 11:28:53.443 GENERAL: working_dir=/Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips
+Sep 19 11:28:53.444 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Sep 19 11:28:53.444 VM: VM R5 created.
+Sep 19 11:28:53.445 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 2005 
+Sep 19 11:28:53.445 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Sep 19 11:28:53.445 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 19 11:28:53.446 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Sep 19 11:28:53.446 HYPERVISOR: exec_cmd: vm set_ios R5 /Users/kradalby/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 19 11:28:53.447 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Sep 19 11:28:53.447 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Sep 19 11:28:53.447 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 19 11:28:53.448 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x6062db80 
+Sep 19 11:28:53.448 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Sep 19 11:28:53.449 HYPERVISOR: exec_cmd: vm set_config R5 configs/i5_startup-config.cfg 
+Sep 19 11:28:53.449 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Sep 19 11:28:53.450 HYPERVISOR: exec_cmd: vm set_ghost_file R5 c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Sep 19 11:29:44.576 HYPERVISOR: exec_cmd: vm extract_config R5 
+Sep 19 11:43:15.851 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 19 11:43:15.852 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-FE-TX 
+Sep 19 11:43:15.852 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 19 11:43:15.853 HYPERVISOR: exec_cmd: vm slot_add_binding R5 4 0 PA-FE-TX 
+Sep 19 11:43:15.853 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 19 11:43:15.853 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-GE 
+Sep 19 11:43:15.854 HYPERVISOR: exec_cmd: vm rename R5 ngt_ul 
+Sep 19 11:43:15.854 HYPERVISOR: exec_cmd: vm get_status ngt_ul 
+Sep 19 11:43:15.854 HYPERVISOR: exec_cmd: vm slot_add_binding ngt_ul 2 0 PA-GE 
+Sep 19 11:46:45.110 HYPERVISOR: exec_cmd: vm extract_config ngt_ul 
+Sep 19 11:46:45.315 HYPERVISOR: exec_cmd: vm extract_config ngt_ul 
+Sep 19 11:46:45.507 HYPERVISOR: exec_cmd: vm extract_config ngt_ul 
+Sep 19 11:46:45.675 HYPERVISOR: exec_cmd: vm extract_config ngt_ul 
+Sep 19 11:48:55.275 HYPERVISOR: exec_cmd: vm extract_config ngt_ul 

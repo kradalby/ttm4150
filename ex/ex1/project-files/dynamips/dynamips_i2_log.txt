@@ -1,0 +1,7 @@
+Sep 19 11:27:50.484 HYPERVISOR: Release 0.2.12-amd64/Darwin (tag 2014032722)
+Sep 19 11:27:50.484 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53965.
+Sep 19 11:27:50.494 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 19 11:27:50.494 HYPERVISOR: exec_cmd: hypervisor uuid 
+Sep 19 11:27:50.494 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips 
+Sep 19 11:27:50.494 GENERAL: working_dir=/Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips
+Sep 19 11:27:50.495 HYPERVISOR: exec_cmd: ethsw create SW1 

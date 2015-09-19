@@ -1,0 +1,1 @@
+Sep 19 11:41:03.776 VM: renamed from 'R7' to 'telenor_ul'

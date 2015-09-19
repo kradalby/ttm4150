@@ -1,0 +1,34 @@
+Sep 19 11:29:20.055 HYPERVISOR: Release 0.2.12-amd64/Darwin (tag 2014032722)
+Sep 19 11:29:20.055 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53991.
+Sep 19 11:29:20.064 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 19 11:29:20.064 HYPERVISOR: exec_cmd: hypervisor uuid 
+Sep 19 11:29:20.064 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips 
+Sep 19 11:29:20.065 GENERAL: working_dir=/Users/kradalby/git/ttm4150/ex/ex1/project-files/dynamips
+Sep 19 11:29:20.065 HYPERVISOR: exec_cmd: vm create R10 10 c7200 
+Sep 19 11:29:20.065 VM: VM R10 created.
+Sep 19 11:29:20.066 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 2010 
+Sep 19 11:29:20.066 HYPERVISOR: exec_cmd: c7200 get_mac_addr R10 
+Sep 19 11:29:20.066 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 19 11:29:20.066 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-FE 
+Sep 19 11:29:20.067 HYPERVISOR: exec_cmd: vm set_ios R10 /Users/kradalby/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Sep 19 11:29:20.067 HYPERVISOR: exec_cmd: vm set_nvram R10 512 
+Sep 19 11:29:20.068 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+Sep 19 11:29:20.068 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 19 11:29:20.068 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x6062db80 
+Sep 19 11:29:20.069 HYPERVISOR: exec_cmd: vm set_ram R10 512 
+Sep 19 11:29:20.070 HYPERVISOR: exec_cmd: vm set_config R10 configs/i10_startup-config.cfg 
+Sep 19 11:29:20.070 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+Sep 19 11:29:20.070 HYPERVISOR: exec_cmd: vm set_ghost_file R10 c7200-adventerprisek9-mz.152-4.M7.image-512.ghost 
+Sep 19 11:29:44.572 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 19 11:39:39.719 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 19 11:39:39.720 HYPERVISOR: exec_cmd: vm slot_add_binding R10 3 0 PA-FE-TX 
+Sep 19 11:39:39.720 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 19 11:39:39.720 HYPERVISOR: exec_cmd: vm slot_add_binding R10 2 0 PA-FE-TX 
+Sep 19 11:39:39.721 HYPERVISOR: exec_cmd: vm rename R10 telenor_dr 
+Sep 19 11:39:39.722 HYPERVISOR: exec_cmd: vm get_status telenor_dr 
+Sep 19 11:39:39.722 HYPERVISOR: exec_cmd: vm slot_add_binding telenor_dr 1 0 PA-GE 
+Sep 19 11:46:45.103 HYPERVISOR: exec_cmd: vm extract_config telenor_dr 
+Sep 19 11:46:45.312 HYPERVISOR: exec_cmd: vm extract_config telenor_dr 
+Sep 19 11:46:45.503 HYPERVISOR: exec_cmd: vm extract_config telenor_dr 
+Sep 19 11:46:45.672 HYPERVISOR: exec_cmd: vm extract_config telenor_dr 
+Sep 19 11:48:55.268 HYPERVISOR: exec_cmd: vm extract_config telenor_dr 
