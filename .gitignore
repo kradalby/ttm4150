@@ -1,4 +1,11 @@
 *.ghost
 *ram*
 *log*
+*bootflash
+*lock
+*rommon_vars
+*mips64e
+*mips64j
+*ppc32e
+*ppc32j
 *lock*
