@@ -1,1 +1,0 @@
-Sep 19 11:39:59.693 VM: renamed from 'R11' to 'telenor_m'

@@ -1,1 +1,0 @@
-Sep 19 11:45:22.503 VM: renamed from 'R2' to 'ngt_ur'
