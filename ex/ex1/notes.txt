@@ -1,0 +1,96 @@
+
+
+Level3
+    172.16.1.0/24
+    Telenor: 172.16.1.4/30
+    NextGen: 172.16.1.8/30
+
+
+NextGenTel
+
+ngt_ul loop0 192.168.10.1/32
+ngt_ul loop1 192.168.100.1/32
+ngt_ur loop0 192.168.10.2/32
+ngt_ur loop1 192.168.100.2/32
+ngt_dl loop0 192.168.10.3/32
+ngt_dl loop1 192.168.100.3/32
+ngt_dr loop0 192.168.10.4/32
+ngt_dr loop1 192.168.100.4/32
+ngt_m loop0 192.168.10.5/32
+ngt_m loop1 192.168.100.5/32
+
+ngt_dr f3/0 10.10.10.1/30 <-> ngt_dl f4/0 10.10.10.2/30
+ngt_dr f0/0 10.10.10.5/30 <-> ngt_ur f0/0 10.10.10.6/30
+ngt_ur f2/0 10.10.10.9/30 <-> ngt_ul f3/0 10.10.10.10/30
+ngt_ul f0/0 10.10.10.13/30 <-> ngt_dl f0/0 10.10.10.14/30
+
+ngt_m g1/0 10.10.10.17/30 <-> ngt_ul g1/0 10.10.10.18/30
+ngt_m g2/0 10.10.10.21/30 <-> ngt_ur g1/0 10.10.10.22/30
+ngt_m g3/0 10.10.10.25/30 <-> ngt_dl g1/0 10.10.10.26/30
+ngt_m g4/0 10.10.10.29/30 <-> ngt_dr g1/0 10.10.10.30/30
+
+customer_a g1/0 100.100.100.1/30 <-> ngt_ul g2/0 100.100.100.2/30
+customer_a g2/0 100.100.100.5/30 <-> ngt_dl g2/0 100.100.100.6/30
+customer_a loop0 2.2.2.2/32
+customer_a loop1 3.3.3.3/32
+
+customer_b g1/0 100.100.100.9/30 <-> ngt_dl g3/0 100.100.100.10/30
+customer_b loop0 4.4.4.4/32
+customer_b loop1 5.5.5.5/32
+
+
+
+Telenor
+
+telenor_ul loop0 192.168.20.1/32
+telenor_ul loop1 192.168.200.1/32
+telenor_ur loop0 192.168.20.2/32
+telenor_ur loop1 192.168.200.2/32
+telenor_dl loop0 192.168.20.3/32
+telenor_dl loop1 192.168.200.3/32
+telenor_dr loop0 192.168.20.4/32
+telenor_dr loop1 192.168.200.4/32
+telenor_m loop0 192.168.20.5/32
+telenor_m loop1 192.168.200.5/32
+
+telenor_ul f0/0 20.20.20.1/30 <-> telenor_ur f0/0 20.20.20.2/30
+telenor_ur f3/0 20.20.20.5/30 <-> telenor_dr f2/0 20.20.20.6/30
+telenor_dr f0/0 20.20.20.9/30 <-> telenor_dl f3/0 20.20.20.10/30
+telenor_dl f0/0 20.20.20.13/30 <-> telenor_ul f4/0 20.20.20.14/30
+
+telenor_m g1/0 20.20.20.17/30 <-> telenor_ul g1/0 20.20.20.18/30
+telenor_m g2/0 20.20.20.21/30 <-> telenor_ur g1/0 20.20.20.22/30
+telenor_m g3/0 20.20.20.25/30 <-> telenor_dl g1/0 20.20.20.26/30
+telenor_m g4/0 20.20.20.29/30 <-> telenor_dr g1/0 20.20.20.30/30
+
+customer_b g2/0 200.200.200.1/30 <-> telenor_ul g2/0 200.200.200.2/30
+
+customer_c g1/0 200.200.200.5/30 <-> telenor_ul g3/0 200.200.200.6/30
+customer_c loop0 6.6.6.6/32
+customer_c loop1 7.7.7.7/32
+
+customer_d g1/0 200.200.200.9/30 <-> telenor_dl g2/0 200.200.200.10/30
+customer_d loop0 8.8.8.8/32
+customer_d loop1 9.9.9.9/32
+
+
+
+conf t
+router ospf 20
+network 20.20.20.0 0.0.0.255 area 0
+end
+write mem
+
+conf t
+router ospf 10
+network 10.10.10.0 0.0.0.255 area 0
+end
+write mem
+
+router bgp 15659
+ bgp log-neighbor-changes
+ no network 100.100.100.0 mask 255.255.255.0
+ network 0.0.0.0
+ redistribute ospf 10 metric 10
+ neighbor 100.100.100.1 remote-as 65001
+ neighbor 100.100.100.2 remote-as 15659
