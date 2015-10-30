@@ -6,138 +6,6 @@
     "topology": {
         "links": [
             {
-                "description": "Link from customer_a port GigabitEthernet1/0 to ngt_ul port GigabitEthernet2/0",
-                "destination_node_id": 6,
-                "destination_port_id": 52,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": -7.0,
-                    "y": 22.0
-                },
-                "id": 1,
-                "source_node_id": 13,
-                "source_port_id": 51,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 73.0,
-                    "y": 22.0
-                }
-            },
-            {
-                "description": "Link from customer_a port GigabitEthernet2/0 to ngt_dl port GigabitEthernet2/0",
-                "destination_node_id": 7,
-                "destination_port_id": 56,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": -2.915745843734726,
-                    "y": 4.3915020377020255
-                },
-                "id": 2,
-                "source_node_id": 13,
-                "source_port_id": 50,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": 68.91574584373473,
-                    "y": 39.608497962297974
-                }
-            },
-            {
-                "description": "Link from ngt_dl port GigabitEthernet1/0 to ngt_m port GigabitEthernet3/0",
-                "destination_node_id": 5,
-                "destination_port_id": 62,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": -1.9801477424032328,
-                    "y": 41.400754210072364
-                },
-                "id": 3,
-                "source_node_id": 7,
-                "source_port_id": 58,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 67.98014774240323,
-                    "y": 2.599245789927636
-                }
-            },
-            {
-                "description": "Link from ngt_ul port GigabitEthernet1/0 to ngt_m port GigabitEthernet1/0",
-                "destination_node_id": 5,
-                "destination_port_id": 63,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -2.777087639996637,
-                    "y": 4.11145618000171
-                },
-                "id": 4,
-                "source_node_id": 6,
-                "source_port_id": 54,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 68.77708763999664,
-                    "y": 39.88854381999829
-                }
-            },
-            {
-                "description": "Link from ngt_ur port GigabitEthernet1/0 to ngt_m port GigabitEthernet2/0",
-                "destination_node_id": 5,
-                "destination_port_id": 61,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": 69.21166404314204,
-                    "y": 5.0083730259102595
-                },
-                "id": 5,
-                "source_node_id": 3,
-                "source_port_id": 67,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -3.2116640431420436,
-                    "y": 38.99162697408974
-                }
-            },
-            {
-                "description": "Link from ngt_dr port GigabitEthernet1/0 to ngt_m port GigabitEthernet4/0",
-                "destination_node_id": 5,
-                "destination_port_id": 64,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g4/0",
-                    "x": 69.04803021977736,
-                    "y": 39.33607560187767
-                },
-                "id": 6,
-                "source_node_id": 4,
-                "source_port_id": 70,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -3.0480302197773597,
-                    "y": 4.663924398122333
-                }
-            },
-            {
                 "description": "Link from ngt_dr port GigabitEthernet2/0 to SW1 port 2",
                 "destination_node_id": 2,
                 "destination_port_id": 3,
@@ -148,7 +16,7 @@
                     "x": 0.36064390468504826,
                     "y": -3.110877876399371
                 },
-                "id": 7,
+                "id": 1,
                 "source_node_id": 4,
                 "source_port_id": 68,
                 "source_port_label": {
@@ -170,7 +38,7 @@
                     "x": 33.3225701559277,
                     "y": 61.9986993350347
                 },
-                "id": 10,
+                "id": 2,
                 "source_node_id": 4,
                 "source_port_id": 11,
                 "source_port_label": {
@@ -182,47 +50,47 @@
                 }
             },
             {
-                "description": "Link from ngt_dr port FastEthernet3/0 to ngt_dl port FastEthernet4/0",
-                "destination_node_id": 7,
-                "destination_port_id": 59,
+                "description": "Link from ngt_dr port GigabitEthernet1/0 to ngt_m port GigabitEthernet4/0",
+                "destination_node_id": 5,
+                "destination_port_id": 64,
                 "destination_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f4/0",
-                    "x": 72.99712031100267,
-                    "y": 21.520034556267944
+                    "text": "g4/0",
+                    "x": 69.04803021977736,
+                    "y": 39.33607560187767
                 },
-                "id": 11,
+                "id": 3,
                 "source_node_id": 4,
-                "source_port_id": 69,
+                "source_port_id": 70,
                 "source_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f3/0",
-                    "x": -6.997120311002682,
-                    "y": 22.479965443732056
+                    "text": "g1/0",
+                    "x": -3.0480302197773597,
+                    "y": 4.663924398122333
                 }
             },
             {
-                "description": "Link from ngt_dl port FastEthernet0/0 to ngt_ul port FastEthernet0/0",
-                "destination_node_id": 6,
-                "destination_port_id": 13,
+                "description": "Link from ngt_ur port GigabitEthernet1/0 to ngt_m port GigabitEthernet2/0",
+                "destination_node_id": 5,
+                "destination_port_id": 61,
                 "destination_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/0",
-                    "x": 33.31745031981225,
-                    "y": 61.99874029634498
+                    "text": "g2/0",
+                    "x": 69.21166404314204,
+                    "y": 5.0083730259102595
                 },
-                "id": 12,
-                "source_node_id": 7,
-                "source_port_id": 14,
+                "id": 4,
+                "source_node_id": 3,
+                "source_port_id": 67,
                 "source_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f0/0",
-                    "x": 32.68254968018775,
-                    "y": -17.998740296344977
+                    "text": "g1/0",
+                    "x": -3.2116640431420436,
+                    "y": 38.99162697408974
                 }
             },
             {
@@ -236,7 +104,7 @@
                     "x": -6.9996800038399485,
                     "y": 22.15999872001538
                 },
-                "id": 13,
+                "id": 5,
                 "source_node_id": 6,
                 "source_port_id": 53,
                 "source_port_label": {
@@ -248,179 +116,91 @@
                 }
             },
             {
-                "description": "Link from ngt_dl port GigabitEthernet3/0 to customer_b port GigabitEthernet1/0",
-                "destination_node_id": 14,
-                "destination_port_id": 49,
+                "description": "Link from ngt_ul port GigabitEthernet1/0 to ngt_m port GigabitEthernet1/0",
+                "destination_node_id": 5,
+                "destination_port_id": 63,
                 "destination_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g1/0",
-                    "x": 72.98469843766588,
-                    "y": 20.893703995795818
+                    "x": -2.777087639996637,
+                    "y": 4.11145618000171
                 },
-                "id": 14,
+                "id": 6,
+                "source_node_id": 6,
+                "source_port_id": 54,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 68.77708763999664,
+                    "y": 39.88854381999829
+                }
+            },
+            {
+                "description": "Link from ngt_dr port FastEthernet3/0 to ngt_dl port FastEthernet4/0",
+                "destination_node_id": 7,
+                "destination_port_id": 59,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f4/0",
+                    "x": 72.99712031100267,
+                    "y": 21.520034556267944
+                },
+                "id": 7,
+                "source_node_id": 4,
+                "source_port_id": 69,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "f3/0",
+                    "x": -6.997120311002682,
+                    "y": 22.479965443732056
+                }
+            },
+            {
+                "description": "Link from ngt_dl port GigabitEthernet1/0 to ngt_m port GigabitEthernet3/0",
+                "destination_node_id": 5,
+                "destination_port_id": 62,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": -1.9801477424032328,
+                    "y": 41.400754210072364
+                },
+                "id": 8,
                 "source_node_id": 7,
-                "source_port_id": 57,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": -6.984698437665884,
-                    "y": 23.106296004204182
-                }
-            },
-            {
-                "description": "Link from customer_b port GigabitEthernet2/0 to telenor_ul port GigabitEthernet2/0",
-                "destination_node_id": 8,
-                "destination_port_id": 41,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": 1.156006821455037,
-                    "y": -2.2066127007638556
-                },
-                "id": 15,
-                "source_node_id": 14,
-                "source_port_id": 48,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": 64.84399317854496,
-                    "y": 46.206612700763856
-                }
-            },
-            {
-                "description": "Link from level3 port GigabitEthernet2/0 to SW1 port 1",
-                "destination_node_id": 2,
-                "destination_port_id": 2,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "1",
-                    "x": 75.49865634290092,
-                    "y": 15.672142161123759
-                },
-                "id": 17,
-                "source_node_id": 18,
-                "source_port_id": 74,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": -6.998656342900915,
-                    "y": 22.32785783887624
-                }
-            },
-            {
-                "description": "Link from customer_c port GigabitEthernet1/0 to telenor_ul port GigabitEthernet3/0",
-                "destination_node_id": 8,
-                "destination_port_id": 42,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": -6.585109469594045,
-                    "y": 16.253774431833122
-                },
-                "id": 18,
-                "source_node_id": 15,
-                "source_port_id": 47,
+                "source_port_id": 58,
                 "source_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
                     "text": "g1/0",
-                    "x": 72.58510946959404,
-                    "y": 27.746225568166878
+                    "x": 67.98014774240323,
+                    "y": 2.599245789927636
                 }
             },
             {
-                "description": "Link from customer_d port GigabitEthernet1/0 to telenor_dl port GigabitEthernet2/0",
-                "destination_node_id": 10,
-                "destination_port_id": 37,
+                "description": "Link from ngt_dl port FastEthernet0/0 to ngt_ul port FastEthernet0/0",
+                "destination_node_id": 6,
+                "destination_port_id": 13,
                 "destination_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g2/0",
-                    "x": -6.968292213927555,
-                    "y": 20.4076377604013
+                    "text": "f0/0",
+                    "x": 33.31745031981225,
+                    "y": 61.99874029634498
                 },
-                "id": 19,
-                "source_node_id": 16,
-                "source_port_id": 46,
+                "id": 9,
+                "source_node_id": 7,
+                "source_port_id": 14,
                 "source_port_label": {
                     "color": "#000000",
                     "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 72.96829221392755,
-                    "y": 23.5923622395987
-                }
-            },
-            {
-                "description": "Link from telenor_dl port GigabitEthernet1/0 to telenor_m port GigabitEthernet3/0",
-                "destination_node_id": 12,
-                "destination_port_id": 34,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g3/0",
-                    "x": -0.7888761234840445,
-                    "y": 43.40821922327615
-                },
-                "id": 20,
-                "source_node_id": 10,
-                "source_port_id": 39,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 66.78887612348404,
-                    "y": 0.5917807767238514
-                }
-            },
-            {
-                "description": "Link from telenor_ul port GigabitEthernet1/0 to telenor_m port GigabitEthernet1/0",
-                "destination_node_id": 12,
-                "destination_port_id": 35,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -3.7365046324402442,
-                    "y": 6.175044158333435
-                },
-                "id": 21,
-                "source_node_id": 8,
-                "source_port_id": 43,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": 69.73650463244024,
-                    "y": 37.824955841666565
-                }
-            },
-            {
-                "description": "Link from telenor_m port GigabitEthernet4/0 to telenor_dr port GigabitEthernet1/0",
-                "destination_node_id": 11,
-                "destination_port_id": 32,
-                "destination_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g1/0",
-                    "x": -1.5949461725317846,
-                    "y": 1.9204158579011334
-                },
-                "id": 23,
-                "source_node_id": 12,
-                "source_port_id": 36,
-                "source_port_label": {
-                    "color": "#000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "g4/0",
-                    "x": 67.59494617253179,
-                    "y": 42.07958414209887
+                    "text": "f0/0",
+                    "x": 32.68254968018775,
+                    "y": -17.998740296344977
                 }
             },
             {
@@ -434,7 +214,7 @@
                     "x": 33.28776233738901,
                     "y": -17.99896489707178
                 },
-                "id": 25,
+                "id": 10,
                 "source_node_id": 8,
                 "source_port_id": 44,
                 "source_port_label": {
@@ -456,7 +236,7 @@
                     "x": -7.0,
                     "y": 22.0
                 },
-                "id": 26,
+                "id": 11,
                 "source_node_id": 10,
                 "source_port_id": 38,
                 "source_port_label": {
@@ -465,6 +245,204 @@
                     "text": "f3/0",
                     "x": 73.0,
                     "y": 22.0
+                }
+            },
+            {
+                "description": "Link from customer_a port GigabitEthernet1/0 to ngt_ul port GigabitEthernet2/0",
+                "destination_node_id": 6,
+                "destination_port_id": 52,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": -7.0,
+                    "y": 22.0
+                },
+                "id": 12,
+                "source_node_id": 13,
+                "source_port_id": 51,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 73.0,
+                    "y": 22.0
+                }
+            },
+            {
+                "description": "Link from customer_a port GigabitEthernet2/0 to ngt_dl port GigabitEthernet2/0",
+                "destination_node_id": 7,
+                "destination_port_id": 56,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": -2.915745843734726,
+                    "y": 4.3915020377020255
+                },
+                "id": 13,
+                "source_node_id": 13,
+                "source_port_id": 50,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": 68.91574584373473,
+                    "y": 39.608497962297974
+                }
+            },
+            {
+                "description": "Link from telenor_dl port GigabitEthernet1/0 to telenor_m port GigabitEthernet3/0",
+                "destination_node_id": 12,
+                "destination_port_id": 34,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": -0.7888761234840445,
+                    "y": 43.40821922327615
+                },
+                "id": 14,
+                "source_node_id": 10,
+                "source_port_id": 39,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 66.78887612348404,
+                    "y": 0.5917807767238514
+                }
+            },
+            {
+                "description": "Link from telenor_ul port GigabitEthernet1/0 to telenor_m port GigabitEthernet1/0",
+                "destination_node_id": 12,
+                "destination_port_id": 35,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": -3.7365046324402442,
+                    "y": 6.175044158333435
+                },
+                "id": 15,
+                "source_node_id": 8,
+                "source_port_id": 43,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 69.73650463244024,
+                    "y": 37.824955841666565
+                }
+            },
+            {
+                "description": "Link from telenor_m port GigabitEthernet4/0 to telenor_dr port GigabitEthernet1/0",
+                "destination_node_id": 11,
+                "destination_port_id": 32,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": -1.5949461725317846,
+                    "y": 1.9204158579011334
+                },
+                "id": 16,
+                "source_node_id": 12,
+                "source_port_id": 36,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g4/0",
+                    "x": 67.59494617253179,
+                    "y": 42.07958414209887
+                }
+            },
+            {
+                "description": "Link from customer_c port GigabitEthernet1/0 to telenor_ul port GigabitEthernet3/0",
+                "destination_node_id": 8,
+                "destination_port_id": 42,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": -6.585109469594045,
+                    "y": 16.253774431833122
+                },
+                "id": 17,
+                "source_node_id": 15,
+                "source_port_id": 47,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 72.58510946959404,
+                    "y": 27.746225568166878
+                }
+            },
+            {
+                "description": "Link from customer_d port GigabitEthernet1/0 to telenor_dl port GigabitEthernet2/0",
+                "destination_node_id": 10,
+                "destination_port_id": 37,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": -6.968292213927555,
+                    "y": 20.4076377604013
+                },
+                "id": 18,
+                "source_node_id": 16,
+                "source_port_id": 46,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 72.96829221392755,
+                    "y": 23.5923622395987
+                }
+            },
+            {
+                "description": "Link from ngt_dl port GigabitEthernet3/0 to customer_b port GigabitEthernet1/0",
+                "destination_node_id": 14,
+                "destination_port_id": 49,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g1/0",
+                    "x": 72.98469843766588,
+                    "y": 20.893703995795818
+                },
+                "id": 19,
+                "source_node_id": 7,
+                "source_port_id": 57,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g3/0",
+                    "x": -6.984698437665884,
+                    "y": 23.106296004204182
+                }
+            },
+            {
+                "description": "Link from customer_b port GigabitEthernet2/0 to telenor_ul port GigabitEthernet2/0",
+                "destination_node_id": 8,
+                "destination_port_id": 41,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": 1.156006821455037,
+                    "y": -2.2066127007638556
+                },
+                "id": 20,
+                "source_node_id": 14,
+                "source_port_id": 48,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": 64.84399317854496,
+                    "y": 46.206612700763856
                 }
             },
             {
@@ -478,7 +456,7 @@
                     "x": -6.995643472683902,
                     "y": 22.590341601072822
                 },
-                "id": 28,
+                "id": 21,
                 "source_node_id": 8,
                 "source_port_id": 15,
                 "source_port_label": {
@@ -500,7 +478,7 @@
                     "x": 33.55938585177766,
                     "y": 61.99608840210291
                 },
-                "id": 29,
+                "id": 22,
                 "source_node_id": 11,
                 "source_port_id": 30,
                 "source_port_label": {
@@ -522,7 +500,7 @@
                     "x": -3.8061854251431413,
                     "y": 37.6622065638907
                 },
-                "id": 30,
+                "id": 23,
                 "source_node_id": 12,
                 "source_port_id": 33,
                 "source_port_label": {
@@ -544,7 +522,7 @@
                     "x": 1.7623917351174327,
                     "y": 37.488922461708654
                 },
-                "id": 31,
+                "id": 24,
                 "source_node_id": 19,
                 "source_port_id": 81,
                 "source_port_label": {
@@ -553,6 +531,28 @@
                     "text": "g1/0",
                     "x": 66.73760826488258,
                     "y": 0.511077538291346
+                }
+            },
+            {
+                "description": "Link from level3 port GigabitEthernet2/0 to SW1 port 1",
+                "destination_node_id": 2,
+                "destination_port_id": 2,
+                "destination_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "1",
+                    "x": 75.49865634290092,
+                    "y": 15.672142161123759
+                },
+                "id": 25,
+                "source_node_id": 18,
+                "source_port_id": 74,
+                "source_port_label": {
+                    "color": "#000000",
+                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
+                    "text": "g2/0",
+                    "x": -6.998656342900915,
+                    "y": 22.32785783887624
                 }
             }
         ],
@@ -572,7 +572,7 @@
                     {
                         "description": "connected to level3 on port GigabitEthernet2/0",
                         "id": 2,
-                        "link_id": 17,
+                        "link_id": 25,
                         "name": "1",
                         "nio": "NIO_UDP",
                         "port_number": 1,
@@ -582,7 +582,7 @@
                     {
                         "description": "connected to ngt_dr on port GigabitEthernet2/0",
                         "id": 3,
-                        "link_id": 7,
+                        "link_id": 1,
                         "name": "2",
                         "nio": "NIO_UDP",
                         "port_number": 2,
@@ -592,7 +592,7 @@
                     {
                         "description": "connected to telenor_ur on port GigabitEthernet1/0",
                         "id": 4,
-                        "link_id": 31,
+                        "link_id": 24,
                         "name": "3",
                         "nio": "NIO_UDP",
                         "port_number": 3,
@@ -659,17 +659,8 @@
                         "adapter_number": 0,
                         "description": "connected to ngt_dr on port FastEthernet0/0",
                         "id": 10,
-                        "link_id": 10,
+                        "link_id": 2,
                         "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to ngt_ul on port FastEthernet3/0",
-                        "id": 65,
-                        "link_id": 13,
-                        "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -680,10 +671,19 @@
                         "port_number": 0
                     },
                     {
+                        "adapter_number": 2,
+                        "description": "connected to ngt_ul on port FastEthernet3/0",
+                        "id": 65,
+                        "link_id": 5,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 1,
                         "description": "connected to ngt_m on port GigabitEthernet2/0",
                         "id": 67,
-                        "link_id": 5,
+                        "link_id": 4,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -705,13 +705,13 @@
                     "mmap": true,
                     "name": "ngt_ur",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -745,20 +745,17 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to ngt_ur on port FastEthernet0/0",
-                        "id": 11,
-                        "link_id": 10,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
+                        "adapter_number": 4,
+                        "id": 71,
+                        "name": "FastEthernet4/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to SW1 on port 2",
-                        "id": 68,
-                        "link_id": 7,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to ngt_ur on port FastEthernet0/0",
+                        "id": 11,
+                        "link_id": 2,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -766,8 +763,17 @@
                         "adapter_number": 3,
                         "description": "connected to ngt_dl on port FastEthernet4/0",
                         "id": 69,
-                        "link_id": 11,
+                        "link_id": 7,
                         "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to SW1 on port 2",
+                        "id": 68,
+                        "link_id": 1,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -775,15 +781,9 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_m on port GigabitEthernet4/0",
                         "id": 70,
-                        "link_id": 6,
+                        "link_id": 3,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "id": 71,
-                        "name": "FastEthernet4/0",
                         "port_number": 0
                     }
                 ],
@@ -803,13 +803,13 @@
                     "mmap": true,
                     "name": "ngt_dr",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -844,26 +844,35 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 4,
+                        "description": "connected to ngt_dr on port GigabitEthernet1/0",
+                        "id": 64,
+                        "link_id": 3,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 0,
                         "id": 12,
                         "name": "FastEthernet0/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to ngt_ur on port GigabitEthernet1/0",
-                        "id": 61,
-                        "link_id": 5,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 3,
+                        "description": "connected to ngt_dl on port GigabitEthernet1/0",
+                        "id": 62,
+                        "link_id": 8,
+                        "name": "GigabitEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 3,
-                        "description": "connected to ngt_dl on port GigabitEthernet1/0",
-                        "id": 62,
-                        "link_id": 3,
-                        "name": "GigabitEthernet3/0",
+                        "adapter_number": 2,
+                        "description": "connected to ngt_ur on port GigabitEthernet1/0",
+                        "id": 61,
+                        "link_id": 4,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -871,17 +880,8 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_ul on port GigabitEthernet1/0",
                         "id": 63,
-                        "link_id": 4,
-                        "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to ngt_dr on port GigabitEthernet1/0",
-                        "id": 64,
                         "link_id": 6,
-                        "name": "GigabitEthernet4/0",
+                        "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     }
@@ -902,13 +902,13 @@
                     "mmap": true,
                     "name": "ngt_m",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -943,20 +943,17 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to ngt_dl on port FastEthernet0/0",
-                        "id": 13,
-                        "link_id": 12,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
+                        "adapter_number": 4,
+                        "id": 55,
+                        "name": "FastEthernet4/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to customer_a on port GigabitEthernet1/0",
-                        "id": 52,
-                        "link_id": 1,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to ngt_dl on port FastEthernet0/0",
+                        "id": 13,
+                        "link_id": 9,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -964,8 +961,17 @@
                         "adapter_number": 3,
                         "description": "connected to ngt_ur on port FastEthernet2/0",
                         "id": 53,
-                        "link_id": 13,
+                        "link_id": 5,
                         "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to customer_a on port GigabitEthernet1/0",
+                        "id": 52,
+                        "link_id": 12,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -973,15 +979,9 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_m on port GigabitEthernet1/0",
                         "id": 54,
-                        "link_id": 4,
+                        "link_id": 6,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "id": 55,
-                        "name": "FastEthernet4/0",
                         "port_number": 0
                     }
                 ],
@@ -1001,13 +1001,13 @@
                     "mmap": true,
                     "name": "ngt_ul",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1042,20 +1042,20 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to ngt_ul on port FastEthernet0/0",
-                        "id": 14,
-                        "link_id": 12,
-                        "name": "FastEthernet0/0",
+                        "adapter_number": 4,
+                        "description": "connected to ngt_dr on port FastEthernet3/0",
+                        "id": 59,
+                        "link_id": 7,
+                        "name": "FastEthernet4/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to customer_a on port GigabitEthernet2/0",
-                        "id": 56,
-                        "link_id": 2,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to ngt_ul on port FastEthernet0/0",
+                        "id": 14,
+                        "link_id": 9,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1063,8 +1063,17 @@
                         "adapter_number": 3,
                         "description": "connected to customer_b on port GigabitEthernet1/0",
                         "id": 57,
-                        "link_id": 14,
+                        "link_id": 19,
                         "name": "GigabitEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to customer_a on port GigabitEthernet2/0",
+                        "id": 56,
+                        "link_id": 13,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1072,17 +1081,8 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_m on port GigabitEthernet3/0",
                         "id": 58,
-                        "link_id": 3,
+                        "link_id": 8,
                         "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to ngt_dr on port FastEthernet3/0",
-                        "id": 59,
-                        "link_id": 11,
-                        "name": "FastEthernet4/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1109,13 +1109,13 @@
                     "mmap": true,
                     "name": "ngt_dl",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1151,20 +1151,20 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to telenor_ur on port FastEthernet0/0",
-                        "id": 15,
-                        "link_id": 28,
-                        "name": "FastEthernet0/0",
+                        "adapter_number": 4,
+                        "description": "connected to telenor_dl on port FastEthernet0/0",
+                        "id": 44,
+                        "link_id": 10,
+                        "name": "FastEthernet4/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to customer_b on port GigabitEthernet2/0",
-                        "id": 41,
-                        "link_id": 15,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to telenor_ur on port FastEthernet0/0",
+                        "id": 15,
+                        "link_id": 21,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1172,8 +1172,17 @@
                         "adapter_number": 3,
                         "description": "connected to customer_c on port GigabitEthernet1/0",
                         "id": 42,
-                        "link_id": 18,
+                        "link_id": 17,
                         "name": "GigabitEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to customer_b on port GigabitEthernet2/0",
+                        "id": 41,
+                        "link_id": 20,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1181,17 +1190,8 @@
                         "adapter_number": 1,
                         "description": "connected to telenor_m on port GigabitEthernet1/0",
                         "id": 43,
-                        "link_id": 21,
+                        "link_id": 15,
                         "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to telenor_dl on port FastEthernet0/0",
-                        "id": 44,
-                        "link_id": 25,
-                        "name": "FastEthernet4/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1218,13 +1218,13 @@
                     "mmap": true,
                     "name": "telenor_ul",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1260,20 +1260,17 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to telenor_ul on port FastEthernet4/0",
-                        "id": 17,
-                        "link_id": 25,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
+                        "adapter_number": 4,
+                        "id": 40,
+                        "name": "FastEthernet4/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to customer_d on port GigabitEthernet1/0",
-                        "id": 37,
-                        "link_id": 19,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to telenor_ul on port FastEthernet4/0",
+                        "id": 17,
+                        "link_id": 10,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1281,8 +1278,17 @@
                         "adapter_number": 3,
                         "description": "connected to telenor_dr on port FastEthernet0/0",
                         "id": 38,
-                        "link_id": 26,
+                        "link_id": 11,
                         "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to customer_d on port GigabitEthernet1/0",
+                        "id": 37,
+                        "link_id": 18,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1290,15 +1296,9 @@
                         "adapter_number": 1,
                         "description": "connected to telenor_m on port GigabitEthernet3/0",
                         "id": 39,
-                        "link_id": 20,
+                        "link_id": 14,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "id": 40,
-                        "name": "FastEthernet4/0",
                         "port_number": 0
                     }
                 ],
@@ -1318,13 +1318,13 @@
                     "mmap": true,
                     "name": "telenor_dl",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1362,17 +1362,8 @@
                         "adapter_number": 0,
                         "description": "connected to telenor_dl on port FastEthernet3/0",
                         "id": 18,
-                        "link_id": 26,
+                        "link_id": 11,
                         "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 2,
-                        "description": "connected to telenor_ur on port FastEthernet3/0",
-                        "id": 30,
-                        "link_id": 29,
-                        "name": "FastEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1383,10 +1374,19 @@
                         "port_number": 0
                     },
                     {
+                        "adapter_number": 2,
+                        "description": "connected to telenor_ur on port FastEthernet3/0",
+                        "id": 30,
+                        "link_id": 22,
+                        "name": "FastEthernet2/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 1,
                         "description": "connected to telenor_m on port GigabitEthernet4/0",
                         "id": 32,
-                        "link_id": 23,
+                        "link_id": 16,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1408,13 +1408,13 @@
                     "mmap": true,
                     "name": "telenor_dr",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1448,26 +1448,35 @@
                 },
                 "ports": [
                     {
+                        "adapter_number": 4,
+                        "description": "connected to telenor_dr on port GigabitEthernet1/0",
+                        "id": 36,
+                        "link_id": 16,
+                        "name": "GigabitEthernet4/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
                         "adapter_number": 0,
                         "id": 19,
                         "name": "FastEthernet0/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to telenor_ur on port GigabitEthernet2/0",
-                        "id": 33,
-                        "link_id": 30,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 3,
+                        "description": "connected to telenor_dl on port GigabitEthernet1/0",
+                        "id": 34,
+                        "link_id": 14,
+                        "name": "GigabitEthernet3/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 3,
-                        "description": "connected to telenor_dl on port GigabitEthernet1/0",
-                        "id": 34,
-                        "link_id": 20,
-                        "name": "GigabitEthernet3/0",
+                        "adapter_number": 2,
+                        "description": "connected to telenor_ur on port GigabitEthernet2/0",
+                        "id": 33,
+                        "link_id": 23,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1475,17 +1484,8 @@
                         "adapter_number": 1,
                         "description": "connected to telenor_ul on port GigabitEthernet1/0",
                         "id": 35,
-                        "link_id": 21,
+                        "link_id": 15,
                         "name": "GigabitEthernet1/0",
-                        "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "description": "connected to telenor_dr on port GigabitEthernet1/0",
-                        "id": 36,
-                        "link_id": 23,
-                        "name": "GigabitEthernet4/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     }
@@ -1506,13 +1506,13 @@
                     "mmap": true,
                     "name": "telenor_m",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1556,7 +1556,7 @@
                         "adapter_number": 2,
                         "description": "connected to ngt_dl on port GigabitEthernet2/0",
                         "id": 50,
-                        "link_id": 2,
+                        "link_id": 13,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1565,7 +1565,7 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_ul on port GigabitEthernet2/0",
                         "id": 51,
-                        "link_id": 1,
+                        "link_id": 12,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1587,13 +1587,13 @@
                     "mmap": true,
                     "name": "customer_a",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1635,7 +1635,7 @@
                         "adapter_number": 2,
                         "description": "connected to telenor_ul on port GigabitEthernet2/0",
                         "id": 48,
-                        "link_id": 15,
+                        "link_id": 20,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1644,7 +1644,7 @@
                         "adapter_number": 1,
                         "description": "connected to ngt_dl on port GigabitEthernet3/0",
                         "id": 49,
-                        "link_id": 14,
+                        "link_id": 19,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1666,13 +1666,13 @@
                     "mmap": true,
                     "name": "customer_b",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1714,7 +1714,7 @@
                         "adapter_number": 1,
                         "description": "connected to telenor_ul on port GigabitEthernet3/0",
                         "id": 47,
-                        "link_id": 18,
+                        "link_id": 17,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1736,13 +1736,13 @@
                     "mmap": true,
                     "name": "customer_c",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1783,7 +1783,7 @@
                         "adapter_number": 1,
                         "description": "connected to telenor_dl on port GigabitEthernet2/0",
                         "id": 46,
-                        "link_id": 19,
+                        "link_id": 18,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1805,13 +1805,13 @@
                     "mmap": true,
                     "name": "customer_d",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1880,7 +1880,7 @@
                         "adapter_number": 2,
                         "description": "connected to SW1 on port 1",
                         "id": 74,
-                        "link_id": 17,
+                        "link_id": 25,
                         "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
@@ -1908,13 +1908,13 @@
                     "mmap": true,
                     "name": "level3",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
@@ -1947,20 +1947,17 @@
                 },
                 "ports": [
                     {
-                        "adapter_number": 0,
-                        "description": "connected to telenor_ul on port FastEthernet0/0",
-                        "id": 78,
-                        "link_id": 28,
-                        "name": "FastEthernet0/0",
-                        "nio": "NIO_UDP",
+                        "adapter_number": 4,
+                        "id": 82,
+                        "name": "FastEthernet4/0",
                         "port_number": 0
                     },
                     {
-                        "adapter_number": 2,
-                        "description": "connected to telenor_m on port GigabitEthernet2/0",
-                        "id": 79,
-                        "link_id": 30,
-                        "name": "GigabitEthernet2/0",
+                        "adapter_number": 0,
+                        "description": "connected to telenor_ul on port FastEthernet0/0",
+                        "id": 78,
+                        "link_id": 21,
+                        "name": "FastEthernet0/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1968,8 +1965,17 @@
                         "adapter_number": 3,
                         "description": "connected to telenor_dr on port FastEthernet2/0",
                         "id": 80,
-                        "link_id": 29,
+                        "link_id": 22,
                         "name": "FastEthernet3/0",
+                        "nio": "NIO_UDP",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 2,
+                        "description": "connected to telenor_m on port GigabitEthernet2/0",
+                        "id": 79,
+                        "link_id": 23,
+                        "name": "GigabitEthernet2/0",
                         "nio": "NIO_UDP",
                         "port_number": 0
                     },
@@ -1977,15 +1983,9 @@
                         "adapter_number": 1,
                         "description": "connected to SW1 on port 3",
                         "id": 81,
-                        "link_id": 31,
+                        "link_id": 24,
                         "name": "GigabitEthernet1/0",
                         "nio": "NIO_UDP",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 4,
-                        "id": 82,
-                        "name": "FastEthernet4/0",
                         "port_number": 0
                     }
                 ],
@@ -2005,13 +2005,13 @@
                     "mmap": true,
                     "name": "telenor_ur",
                     "npe": "npe-400",
-                    "nvram": 4096,
+                    "nvram": 1024,
                     "platform": "c7200",
                     "power_supplies": [
                         1,
                         1
                     ],
-                    "ram": 512,
+                    "ram": 256,
                     "sensors": [
                         22,
                         22,
